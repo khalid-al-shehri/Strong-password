@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kh09909.strongpassword.RandomPage"
+    android:background="@drawable/firstpage"
+    >
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="628dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9554171393741373/6340763489"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.gms.ads.AdView>
+
+
+    <TextView
+        android:id="@+id/tv2En"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:shadowColor="@android:drawable/screen_background_light"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHighlight="@android:drawable/screen_background_light"
+        android:textColorHint="@android:drawable/screen_background_light"
+        android:textColorLink="@android:drawable/screen_background_light"
+        app:layout_constraintEnd_toEndOf="@+id/tv1En"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toEndOf="@+id/cobybtnEn"
+        app:layout_constraintTop_toBottomOf="@+id/tv1En" />
+
+    <CheckBox
+        android:id="@+id/cb1En"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cb2"
+        android:layout_alignBottom="@+id/cb2"
+        android:layout_alignStart="@+id/cb3"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="144dp"
+        android:shadowColor="@android:drawable/screen_background_light"
+        android:text="Capital Letter"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHighlight="@android:drawable/screen_background_light"
+        android:textColorHint="@android:drawable/screen_background_light"
+
+        android:textColorLink="@android:drawable/screen_background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/cb2En"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/cb4"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:shadowColor="@android:drawable/screen_background_light"
+        android:text="Small Letter"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHighlight="@android:drawable/screen_background_light"
+        android:textColorHint="@android:drawable/screen_background_light"
+        android:textColorLink="@android:drawable/screen_background_light"
+        app:layout_constraintEnd_toEndOf="@+id/cb1En"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/cb1En"
+        app:layout_constraintTop_toBottomOf="@+id/cb1En"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/cb3En"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cb4"
+        android:layout_alignBottom="@+id/cb4"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="24dp"
+        android:shadowColor="@android:color/white"
+        android:text="Numbers"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/background_light"
+        app:layout_constraintEnd_toStartOf="@+id/cb2En"
+        app:layout_constraintStart_toStartOf="@+id/cb4En"
+        app:layout_constraintTop_toBottomOf="@+id/cb4En"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/cb4En"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb2"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="144dp"
+        android:shadowColor="@android:drawable/screen_background_light"
+        android:text="Symboles"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHighlight="@android:drawable/screen_background_light"
+        android:textColorHint="@android:drawable/screen_background_light"
+        android:textColorLink="@android:color/background_light"
+        app:layout_constraintEnd_toStartOf="@+id/cb1En"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv1En"
+        android:layout_width="302dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/et1En"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:shadowColor="@android:drawable/screen_background_light"
+        android:textAlignment="center"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHighlight="@android:drawable/screen_background_light"
+        android:textColorHint="@android:drawable/screen_background_light"
+        android:textColorLink="@android:drawable/screen_background_light"
+        app:layout_constraintEnd_toEndOf="@+id/okbtnEn"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/et1En"
+        app:layout_constraintTop_toBottomOf="@+id/et1En"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/okbtnEn"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/et1En"
+        android:layout_alignBottom="@+id/et1En"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/okbuttonen"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/cb2En"
+        app:layout_constraintTop_toBottomOf="@+id/cb2En"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/cobybtnEn"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/copybuttonen"
+        android:text=""
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tv1En"
+        app:layout_constraintTop_toBottomOf="@+id/tv1En"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et1En"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cb3"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Enter password length"
+        android:inputType="number"
+        android:shadowColor="@android:drawable/screen_background_light"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHighlight="@android:drawable/screen_background_light"
+        android:textColorHint="@android:drawable/screen_background_light"
+        android:textColorLink="@android:drawable/screen_background_light"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/okbtnEn"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/cb3En"
+        app:layout_constraintTop_toBottomOf="@+id/cb3En" />
+
+</android.support.constraint.ConstraintLayout>

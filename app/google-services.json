@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "368859548332",
+    "firebase_url": "https://strongpassword-a7ddd.firebaseio.com",
+    "project_id": "strongpassword-a7ddd",
+    "storage_bucket": "strongpassword-a7ddd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368859548332:android:6f60a088ae6b9ef9",
+        "android_client_info": {
+          "package_name": "com.kh09909.strongpassword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368859548332-cva0k7p4peau2mmcffh9plufeeac88bi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kh09909.strongpassword",
+            "certificate_hash": "5218bf817ae6f15597db2af2ec1ada667f4727b8"
+          }
+        },
+        {
+          "client_id": "368859548332-mn33guovia1768e8kcncuuj19j2rfkvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAECjMJ0fvYwN7LP8Vx6fb-zYETQDS5tas"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368859548332-mn33guovia1768e8kcncuuj19j2rfkvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
