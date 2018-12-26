@@ -1,5 +1,5 @@
-# Strong-password
-An android project to generate a strong password.
+# Strong-password (Android copy)
+An android project to generate a strong password. 
 
 ## Skills : 
 1. Java language<br />
