@@ -17,6 +17,7 @@ An android project to generate a strong password.
 
 ## Download : 
 From [google play](https://play.google.com/store/apps/details?id=com.kh09909.strongpassword)<br />
+From [google drive](https://play.google.com/store/apps/details?id=com.kh09909.shahinrasid)<br />
 
 ## Screenshots
 <img src="/screenshots/all.jpg">
