@@ -1,4 +1,4 @@
-# Strong-password (Android copy)
+# Strong-password (Android Native)
 An android project to generate a strong password. 
 
 ## Skills : 
